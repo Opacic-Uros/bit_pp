@@ -37,10 +37,6 @@ console.log(productThree.getInfo());
 var productFour = new Product('Honey', 500.458954, '2050-05-25');
 console.log(productFour.getInfo());
 
-
-
-
-
 function ShoppingBag() {
     this.listOfProducts = [];
     this.addProduct = function (product) {
